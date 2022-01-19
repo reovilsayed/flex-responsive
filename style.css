@@ -1,5 +1,42 @@
+* {
+	/* margin: 0;
+	padding: 0; */
+	box-sizing: border-box;
+}
+.w-100 {
+	width: 100%;
+}
 .container {
 	width: 1200px;
 	margin: 0 auto;
 }
-
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.logo {
+	background-color: rgba(172, 20, 20, 0.739);
+	width: 30%;
+}
+.address {
+	width: 70%;
+	text-align: right;
+	background-color: rosybrown;
+}
+.content {
+	display: flex;
+	flex-wrap: wrap;
+}
+.box {
+	width: 33.33333333%;
+	padding: 20px;
+}
+.footer {
+	background-color: royalblue;
+}
+.footer p {
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+}

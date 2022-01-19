@@ -5,47 +5,63 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Layout</title>
+		<link rel="stylesheet" href="./style.css" />
 		<style>
-			* {
-				/* margin: 0;
-				padding: 0; */
-				box-sizing: border-box;
+			@media only screen and (max-width: 480px) {
+				.container {
+					width: 100%;
+				}
+				.box {
+					width: 100%;
+				}
+				.address {
+					display: none;
+				}
+				.logo {
+					width: 100%;
+				}
 			}
-			.w-100 {
-				width: 100%;
+			@media only screen and (min-width: 481px) and (max-width: 768px) {
+				.container {
+					width: 100%;
+				}
+				.box {
+					width: 50%;
+				}
+				.address {
+					display: none;
+				}
+				.logo {
+					width: 90%;
+				}
 			}
-			.container {
-				width: 1200px;
-				margin: 0 auto;
+			@media only screen and (min-width: 769px) and (max-width: 1200px) {
+				.container {
+					width: 100%;
+				}
+				.box {
+					width: 33.33333333%;
+				}
+				.address {
+					display: none;
+				}
+				.logo {
+					width: 90%;
+				}
 			}
-			.header {
-				display: flex;
-				flex-wrap: wrap;
-			}
-			.logo {
-				background-color: rgba(172, 20, 20, 0.739);
-				width: 30%;
-			}
-			.address {
-				width: 70%;
-				text-align: right;
-				background-color: rosybrown;
-			}
-			.content {
-				display: flex;
-				flex-wrap: wrap;
-			}
-			.box {
-				width: 33.33333333%;
-				padding: 20px;
-			}
-			.footer {
-				background-color: royalblue;
-			}
-			.footer p {
-				text-align: center;
-				margin: 0;
-				padding: 10px;
+			@media only screen and (min-width: 1201px) {
+				.container {
+					width: 1200px;
+				}
+				.box {
+					width: 25%;
+				}
+				.address {
+					display: none;
+				}
+				.logo {
+					width: 90%;
+				}
 			}
 		</style>
 	</head>
@@ -53,13 +69,61 @@
 		<div class="container">
 			<div class="header">
 				<div class="logo">
-					<img src="./images/logo.png" alt="" />
+					<img src="./images/logo.png" class="w-100" />
 				</div>
 				<div class="address">
 					<p>Email: test@gmail.com Phone: 017 XXX XXX</p>
 				</div>
 			</div>
 			<div class="content">
+				<div class="box">
+					<img src="./images/flower.jpg" class="w-100" />
+					<h3>This is title</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum quod debitis fugiat natus expedita architecto corrupti quibusdam
+						est labore.
+					</p>
+				</div>
+				<div class="box">
+					<img src="./images/flower.jpg" class="w-100" />
+					<h3>This is title</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum quod debitis fugiat natus expedita architecto corrupti quibusdam
+						est labore.
+					</p>
+				</div>
+				<div class="box">
+					<img src="./images/flower.jpg" class="w-100" />
+					<h3>This is title</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum quod debitis fugiat natus expedita architecto corrupti quibusdam
+						est labore.
+					</p>
+				</div>
+				<div class="box">
+					<img src="./images/flower.jpg" class="w-100" />
+					<h3>This is title</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum quod debitis fugiat natus expedita architecto corrupti quibusdam
+						est labore.
+					</p>
+				</div>
+				<div class="box">
+					<img src="./images/flower.jpg" class="w-100" />
+					<h3>This is title</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum quod debitis fugiat natus expedita architecto corrupti quibusdam
+						est labore.
+					</p>
+				</div>
+				<div class="box">
+					<img src="./images/flower.jpg" class="w-100" />
+					<h3>This is title</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum quod debitis fugiat natus expedita architecto corrupti quibusdam
+						est labore.
+					</p>
+				</div>
 				<div class="box">
 					<img src="./images/flower.jpg" class="w-100" />
 					<h3>This is title</h3>
